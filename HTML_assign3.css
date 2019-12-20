@@ -1,0 +1,18 @@
+        table
+		{ 
+			
+			border-collapse: collapse; 
+			border:solid silver  1px;
+		} 
+		th, td { 
+			border:1px solid #dddddd;
+			padding: 10px; 
+		} 
+		th 
+		{ 
+            text-align: left; 
+        } 
+		tbody:nth-child(even) tr:nth-child(odd) 
+		{
+			background-color:#dddddd;
+		}
