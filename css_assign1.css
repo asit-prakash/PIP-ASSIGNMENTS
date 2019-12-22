@@ -1,0 +1,44 @@
+		#container
+		{
+		height:100px;
+		width: 94%;
+		margin-top:25px;
+		margin-left:20px;
+		padding: 20px;
+		
+		background-color: #f06292;
+		}
+		
+		span.container1
+		{
+		display: inline-block;
+		height:265px;
+		width: 68%;
+		margin-top:10px;
+		margin-left:20px;
+		padding: 20px;
+		
+		background-color: #e91e63;
+		}
+		
+		span.container2
+		{
+		display: inline-block;
+		height:265px;
+		width: 21.8%;
+		margin-top:10px;
+		margin-left:10px;
+		padding: 20px;
+		
+		background-color: #c2185b;
+		}
+		
+		#container3
+		{
+		height:100px;
+		width: 94%;
+		margin-top:10px;
+		margin-left:20px;
+		padding: 20px;
+		background-color: #880e4f;
+		}

@@ -1,0 +1,76 @@
+			#item
+			{
+			background-color: red;
+			width:100%;
+			height:630px;
+			}
+			#top
+			{
+			width:100%;
+			height:330px;
+			}
+			#topleft
+			{
+			position: relative;
+			top: 30%;
+			left:6%;
+			}
+			#topright
+			{
+			float:right;
+			position:relative;
+			top:10%;
+			right:25%;
+			width:100px;
+			height:10px;
+			}
+			#bottom
+			{
+			background-color: red;
+			width:100%;
+			height:300px;
+			}
+			#bottomleft
+			{
+			float:left;
+			background-color:brown;
+			width:33%;
+			height: 300px;
+			margin-right:1px;
+			}
+			#bottommiddle
+			{
+			float:left;
+			background-color:brown;
+			width:33%;
+			height: 300px;
+			margin-right:1px;
+			}
+			#bottomright
+			{
+			float:left;
+			background-color:brown; 
+			width:33.8%;
+			height: 300px;
+			}
+			.b1
+			{
+			position: relative;
+			left:10%;
+			top:15%;
+			}
+			h1
+			{
+			font-size: 64px;
+			color:white;
+			}
+			h3
+			{
+			font-size: 30px;
+			color:white;
+			}
+			p
+			{
+			font-size: 18px;
+			color: white;
+			}
