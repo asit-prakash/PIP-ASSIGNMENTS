@@ -1,0 +1,148 @@
+#header
+			{
+				height:80px;
+				width:100%;
+				background-color:gray;
+				
+			}
+			img
+			{
+				width:55px;
+				height:55px;
+				padding-left:70px;
+				padding-top:12px;
+				padding-bottom:15px;
+			}
+			#home
+			{
+				background-color:black;
+				width:80px;
+				height:40px;
+				position:absolute;
+				top:27px;
+				right:380px;
+			}
+			#p1
+			{
+				position:absolute;
+				top:27px;
+				right:290px;
+			}
+			#p2
+			{
+				position:absolute;
+				top:27px;
+				right:200px;
+			}
+			#p3
+			{
+				position:absolute;
+				top:27px;
+				right:80px;
+			}
+			p
+			{
+				color:white;
+				font-size:20px;
+				text-align:center;
+				margin-top:9px;
+			}
+			#banner
+			{
+				height:280px;
+				width:100%;
+				background-color:pink;	
+			}
+			h1
+			{
+				position:absolute;
+				top:160px;
+				left:42%;
+				color:white;
+				font-size:50px;
+			}
+			#larrow
+			{
+				position:absolute;
+				top:175px;
+				left:0.3%;
+			}
+			#rarrow
+			{
+				position:absolute;
+				top:175px;
+				right:5%;
+			}
+			#content
+			{
+				width:100%;
+			}
+			#yellow
+			{
+				height:448px;
+				width:35%;
+				background-color:yellow;
+				margin-top:15px;
+				margin-left:100px;
+			}
+			#purple
+			{
+				height:320px;
+				width:17%;
+				background-color:purple;
+				position:absolute;
+				top:420px;
+				left:50px;
+				
+			}
+			#maincontent
+			{
+				height:250px;
+				width:45%;
+				background-color:orange;
+				position:absolute;
+				top:385px;
+				right:100px;
+			}
+			form
+			{
+				padding-left:20px;
+				padding-top:20px;
+			}
+			.formstyle input[type="text"],input[type="password"],select
+			{
+				border: none;
+				width: 40%;
+				font-size: 25px;
+				background-color: rgba(255, 255, 255,.25);
+			}
+			.formstyle input[type="submit"]
+			{
+				width: 15%;
+				padding: 7px;
+				font-size: 18px;
+				border: none;
+				background-color: rgba(255,255,255,.25);
+			}
+			#extracontent
+			{
+				height:180px;
+				width:45%;
+				background-color:green;
+				position:absolute;
+				top:650px;
+				right:100px;
+			}
+			#footer
+			{
+				height:80px;
+				width:100%;
+				background-color:lightblue;
+			}
+			pre
+			{
+				text-align:center;
+				font-size:20px;
+				color:black;
+				margin-top:10px;
+			}
