@@ -11,16 +11,14 @@
 			}
 			#topleft
 			{
-			position: relative;
-			top: 30%;
-			left:6%;
+				padding-left:30px;
+				padding-top:30px;
 			}
 			#topright
 			{
 			float:right;
-			position:relative;
-			top:10%;
-			right:25%;
+			padding-right:300px;
+			padding-bottom:70px;
 			width:100px;
 			height:10px;
 			}
@@ -55,9 +53,8 @@
 			}
 			.b1
 			{
-			position: relative;
-			left:10%;
-			top:15%;
+			padding-top:10px;
+			padding-left:25px;
 			}
 			h1
 			{
