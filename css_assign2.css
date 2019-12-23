@@ -46,7 +46,8 @@
 			position:relative;
 			bottom:4%;	
 		}
-		#footer{
+		#footer
+		{
 			margin-top:1%;
 			background-color:orange;
 			width: 100%;
@@ -54,15 +55,7 @@
 		}
 		.p1
 		{
-			position:relative;
-			left:45%;
-			top:20%;
-		}
-		.p2
-		{
-			position: relative;
-			left:40%;
-			top:20%;
+			text-align:center;
 		}
 		p
 		{
