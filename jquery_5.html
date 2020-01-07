@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>JQUERY ASSIGNMENT 5</title>
+		<link rel="stylesheet" type="text/css" href="css_assign2.css">
+		<style>
+			#pop
+			{
+				width:100%;
+				height:100%;
+				position:fixed;
+				top:0px;
+				background-color: rgba(0, 0,0, 0.9);
+				color: white;
+				display: none;
+			}
+			#message
+			{
+				padding-top: 250px;
+				font-size: 50px;
+				text-align:center;
+			}
+			#close
+			{
+				float:right ;
+				position: relative;
+				right: 70px;
+				top: 20px;
+				font-size:50px;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+		</script>
+		<script>
+		  $(document).ready(function(){
+			$('#footer').click(function(){
+			  $("#pop").css("display","block" );
+			});
+			$('#close').click(function(){
+			  $("#pop").css("display","none" );
+			});
+		  });
+		</script>
+		
+	</head>
+	<body>
+	<div id="item">
+	    <div id="header">
+			<div class="p1">
+				<p>HEADER</p>
+			</div>
+		</div>
+		<div id="contents">
+			<div id="sidebar">
+				<div class="p1">
+					<p id="ps">SIDEBAR</p>
+				</div>
+			</div>
+			<div id="right">
+				<div id="maincontent">
+					<div class="p1">
+						<p>MAIN CONTENT</p>
+					</div>
+				</div>
+				<div id="extracontent">
+					<div class="p1">
+						<p>EXTRA CONTENT</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="p1">
+				<p>FOOTER</p>
+			</div>
+		</div>
+		<div id="pop">
+		  <div id="close">
+			X
+		  </div>
+		  <div id="message">
+			<h3>I am popup</h3>
+		  </div>
+		</div>
+	</div>
+	</body>
+</html>
