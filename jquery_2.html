@@ -1,0 +1,37 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script>
+	  $(document).ready(function(){
+	   $("#slide").click(function(){
+		$("#pannel").slideDown("slow");
+			});
+		});
+	</script>
+	<style>
+	  #slide
+		{
+			margin-left:20px;
+			background-color:grey;
+			text-align:center;
+			width:50%;
+			height:10%;
+		}
+	  #pannel
+		{
+			text-align:center;
+			background-color:lightblue;
+			margin-left:20px;
+		    width:50%;
+		    height:30%;
+	        display:none;
+		}
+	 
+	</style>
+</head>
+<body>
+ <div id="slide">Click me to slide pannel</div>
+ <div id="pannel">Hello World!!!</div>
+</body>
+</html>

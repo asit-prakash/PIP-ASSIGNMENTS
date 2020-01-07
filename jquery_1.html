@@ -1,0 +1,27 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script>
+ $(document).ready(function(){
+   $("#clickme").click(function(){
+    $("#p1").hide();
+		});
+	});
+	</script>
+	<style>
+		#p1
+		{
+		background-color:red;
+		width:30%;
+		height:20%;
+		}
+	</style>
+</head>
+<body>
+	<div id="p1">
+	</div>
+	<p>Hide the red box on button click</p>
+	<button id="clickme">Click me</button>
+</body>
+</html>
